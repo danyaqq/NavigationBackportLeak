@@ -10,6 +10,8 @@ struct ContentView: View {
                 presentable
             }
         }
+        /// Fix deinit
+//        .nbNavigatorEnabled(false)
     }
 
     private var root: some View {
