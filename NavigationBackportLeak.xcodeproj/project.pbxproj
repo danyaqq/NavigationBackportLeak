@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FD51F792CA43137004DF276 /* NavigationBackport in Frameworks */ = {isa = PBXBuildFile; productRef = 1FD51F782CA43137004DF276 /* NavigationBackport */; };
 		1FF8F2EA2CA229FB00C057D3 /* NavigationBackportLeakApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF8F2E92CA229FB00C057D3 /* NavigationBackportLeakApp.swift */; };
 		1FF8F2EC2CA229FB00C057D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF8F2EB2CA229FB00C057D3 /* ContentView.swift */; };
 		1FF8F2EE2CA229FC00C057D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FF8F2ED2CA229FC00C057D3 /* Assets.xcassets */; };
 		1FF8F2F12CA229FC00C057D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FF8F2F02CA229FC00C057D3 /* Preview Assets.xcassets */; };
-		1FF8F2F92CA22A2500C057D3 /* NavigationBackport in Frameworks */ = {isa = PBXBuildFile; productRef = 1FF8F2F82CA22A2500C057D3 /* NavigationBackport */; };
 		1FF8F2FB2CA296AC00C057D3 /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF8F2FA2CA296AC00C057D3 /* Presentable.swift */; };
 		1FF8F2FF2CA296F100C057D3 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF8F2FE2CA296F100C057D3 /* MainViewModel.swift */; };
 		1FF8F3012CA2970500C057D3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF8F3002CA2970500C057D3 /* MainView.swift */; };
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FF8F2F92CA22A2500C057D3 /* NavigationBackport in Frameworks */,
+				1FD51F792CA43137004DF276 /* NavigationBackport in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,7 +117,7 @@
 			);
 			name = NavigationBackportLeak;
 			packageProductDependencies = (
-				1FF8F2F82CA22A2500C057D3 /* NavigationBackport */,
+				1FD51F782CA43137004DF276 /* NavigationBackport */,
 			);
 			productName = NavigationBackportLeak;
 			productReference = 1FF8F2E62CA229FB00C057D3 /* NavigationBackportLeak.app */;
@@ -148,7 +148,7 @@
 			);
 			mainGroup = 1FF8F2DD2CA229FA00C057D3;
 			packageReferences = (
-				1FF8F2F72CA22A2500C057D3 /* XCRemoteSwiftPackageReference "NavigationBackport" */,
+				1FD51F772CA43137004DF276 /* XCRemoteSwiftPackageReference "NavigationBackport" */,
 			);
 			productRefGroup = 1FF8F2E72CA229FB00C057D3 /* Products */;
 			projectDirPath = "";
@@ -390,20 +390,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		1FF8F2F72CA22A2500C057D3 /* XCRemoteSwiftPackageReference "NavigationBackport" */ = {
+		1FD51F772CA43137004DF276 /* XCRemoteSwiftPackageReference "NavigationBackport" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/johnpatrickmorgan/NavigationBackport";
+			repositoryURL = "https://github.com/danyaqq/NavigationBackport.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.10.0;
+				branch = "bugfix/navigator-leaks";
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		1FF8F2F82CA22A2500C057D3 /* NavigationBackport */ = {
+		1FD51F782CA43137004DF276 /* NavigationBackport */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 1FF8F2F72CA22A2500C057D3 /* XCRemoteSwiftPackageReference "NavigationBackport" */;
+			package = 1FD51F772CA43137004DF276 /* XCRemoteSwiftPackageReference "NavigationBackport" */;
 			productName = NavigationBackport;
 		};
 /* End XCSwiftPackageProductDependency section */

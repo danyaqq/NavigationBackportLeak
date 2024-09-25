@@ -1,13 +1,13 @@
 {
-  "originHash" : "f57f96c9093592a8dfc088d1e5d0d3894041971d6addbf48412da75073ac96d9",
+  "originHash" : "4e9a20d5ac67ba74952c3828ebfa207974af4287dfc78a64a6fb6714202420c1",
   "pins" : [
     {
       "identity" : "navigationbackport",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/johnpatrickmorgan/NavigationBackport",
+      "location" : "https://github.com/danyaqq/NavigationBackport.git",
       "state" : {
-        "revision" : "4bc5725695780353d1e80eba0bb3b834b7aa63b2",
-        "version" : "0.10.0"
+        "branch" : "bugfix/navigator-leaks",
+        "revision" : "6b333a420c744a1c989b8c16159455a0eab7501e"
       }
     }
   ],
